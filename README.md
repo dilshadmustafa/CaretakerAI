@@ -11,7 +11,9 @@ Welcome to Roy AI
 Introduction
 -------------
 
-**Roy AI** is a multi-agent based AI project which aims to build a Computational Intelligence and Thinking system similar to Human thinking. 
+**Roy AI** is a multi-agent based AI project which aims to build a Computational Intelligence and Thinking system with Artificial Consciousness similar to Human thinking. 
+
+A new language called Vague Semantic Language (VSL), which is being created as part of this project, and Vague Semantic Architecture (VSA) is used to express Human Memorizing, Learning, Thinking and Hierarchical Thoughts system giving rise to Artificial Consciousness.
 
 > **Objectives:**
 
