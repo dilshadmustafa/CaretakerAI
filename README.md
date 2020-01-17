@@ -42,7 +42,7 @@ License
 
 Please refer LICENSE.txt file for complete details on the license and terms and conditions.
 
-About The Authorenter code here
+About The Author
 --------------------
 
 Dilshad Mustafa is the creator and programmer of Scabi framework and Cluster and is currently working on developing Caretaker Theory and Caretaker Software Architecture for AI and Artificial Consciousness. He is also Author of Book titled “Tech Job 9 to 9”. He is a Senior Software Architect with 18+ years experience in Information Technology industry. He has experience across various domains, Banking, Retail, Materials & Supply Chain.
