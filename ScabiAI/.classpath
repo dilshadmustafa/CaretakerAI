@@ -28,7 +28,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/bigqueue"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/Dilshad_StorageHandler"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
