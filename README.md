@@ -13,7 +13,7 @@ Introduction
 
 **Roy AI** is a multi-agent based AI project which aims to build a Computational Intelligence and Thinking system with Artificial Consciousness similar to Human thinking. 
 
-RoyAI will try to build a Box-World example using Dilshad Mustafa's Caretaker Theory and Caretaker Software Architecture which is being developed.
+RoyAI will try to build a Box-World example using Dilshad Mustafa's Caretaker Theory for Artificial Intelligence and Consciousness and Caretaker Software Architecture [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html) which is being developed.
 
 A new language called Caretaker Semantic Language (CSL), which is being created as part of this project, and Caretaker Software Architecture (CSA) is used to express Human Memorizing, Learning, Thinking and Hierarchical Thoughts system giving rise to Artificial Consciousness.
 
@@ -28,7 +28,7 @@ A new language called Caretaker Semantic Language (CSL), which is being created 
 
 ## Documentation ##
 
-Please refer [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html") or in https://dilshadmustafa.github.io/ repository Documentation folder to get an overview of Dilshad's Caretaker Theory. Please refer Doc folder tin this repository to get started on using Roy AI.
+Please refer [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html) or in https://dilshadmustafa.github.io/ repository Documentation folder to get an overview of Dilshad's Caretaker Theory. Please refer Doc folder tin this repository to get started on using Roy AI.
 
 
 
