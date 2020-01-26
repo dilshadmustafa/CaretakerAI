@@ -18,7 +18,7 @@ public class Test1_FS_Client {
 
 	public static void main(String args[]) throws FileDoesNotExistException, OpenDirectoryException, FileIncompleteException, IOException, AlluxioException {
 		FileSystem fs = FileSystem.Factory.get();
-		AlluxioURI path = new AlluxioURI("alluxio://192.168.2.7:19998/testfile1");
+		AlluxioURI path = new AlluxioURI("alluxio://192.168.2.6:19998/testfile1");
 		// Open the file for reading
 		FileInStream in = fs.openFile(path);
 		// Read data
