@@ -1,0 +1,4 @@
+export PATH=/home/anees/Downloads/jdk1.8.0_191/bin:$PATH
+export JAVA_HOME=/home/anees/Downloads/jdk1.8.0_191
+/home/anees/Downloads/hbase-2.2.3/bin/start-hbase.sh
+

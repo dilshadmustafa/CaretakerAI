@@ -1,0 +1,2 @@
+export HBASE_HOME=/home/anees/Downloads/hbase-2.2.3
+/home/anees/Downloads/hbase-2.2.3/bin/hbase shell
