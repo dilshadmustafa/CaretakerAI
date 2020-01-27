@@ -26,7 +26,65 @@ Complete details of Box World can be found in [https://github.com/dilshadmustafa
 > - Create and invent Caretaker Semantic Language (CSL) to express Human Memorizing, Learning, Thinking and Hierarchical Thoughts system giving rise to Artificial Consciousness.
 >  - Develop Caretaker Theory and Caretaker Software Architecture (CSA), a Software Approach with highly scalable Cluster Computing system that can be applied at very large scale and uses existing BigData systems like HDFS, Scality, Akka, Alluxio, HBase, Java, Clojure, TensorFlow, Keras, etc.
 
+## Caretakers And Specific Algorithms ##
+A detailed presentation is available in [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html) and [https://github.com/dilshadmustafa/dilshadmustafa.github.io/blob/master/Docs/Dilshad_Caretaker_Intelligence_ArtificialConsciousness.pptx](https://github.com/dilshadmustafa/dilshadmustafa.github.io/blob/master/Docs/Dilshad_Caretaker_Intelligence_ArtificialConsciousness.pptx)
 
+> **Caretaker:**
+
+> - There are set of Caretakers.
+> - Each Caretaker takes care of one specific area of concern.
+> - There might be a few hundred Caretakers. Lets assume 100 Caretakers.
+
+> **Specific Algorithms:**
+
+> - There is no “Master Algorithm”. The issue with “one Master Algorithm to handle all” is its 
+very difficult to formulate such algorithm.
+> -  Instead of one Master Algorithm there are millions of Specific Algorithms.
+> - Each Specific Algorithm does only one specific set of steps.
+> - There are Hierarchical Layers of Specific Algorithms. 
+> - Specific Algorithms in each layer handle algorithm steps for granularity associated with that 
+layer.
+> - Each Specific Algorithm Operator/Agent implements one Specific Algorithm at one layer.
+
+> **Specific Algorithm Examples:**
+
+> - Try-Record
+> - What-To-Try
+> - Peek-Classify
+> - Ask-WhatWhyWhereWhenHow
+> - Answer-Search
+> - Do-Action
+> - Plan-Ahead
+> - Plan-Now
+> - React-Hunger
+> - React-Pain
+> - React-Reward
+> - Survive-Danger
+> - Address-Failure
+> - Address-Success
+> - Memory-Store
+> - Memory-Recall
+> - Memory-Predict
+> 
+New Specific Algorithms will be added on a need basis.
+
+# Von Neumann Architecture And Brain-like Neuronal Circuits
+In Von Neumann Architecture, compute unit, memory and storage are separate. In Brain-like memory-cum-processor Neuronal circuits, a neural network does memory store, memory recall and pattern recognition in the same circuit and have Neuroplasticity. Technologies like Neuromorphic circuits may address these limitations in current hardware architecture.
+
+# Box World
+A Box World is a world built with Unicode characters. It allows us to focus on developing Caretaker Theory and to build and test the theory. It reduces complexity involved in training CNNs for visual pattern recognition, NNs for Natural Language Processing, Deep Reinforcement Learning Neural Networks for each and every learnable task in this Box World, which require high compute resources, memory, arrays of GPUs, time and effort.
+
+  
+
+Due to purely hardware resource constraints from my side (lack of compute resources, memory, GPUs, time, etc.), we will use Box World to help with developing and testing Caretaker Theory and to build the world for RoyAI.
+
+  
+
+In Box World, an Actor, denoted by A, can touch/examine/peek an object in the world or to move into the block containing the object to use/consume it.
+
+  
+
+A Box World can be scrollable and in such cases the scrollable side will not have World border characters to indicate that navigation is possible there.
 
 ## Documentation ##
 
