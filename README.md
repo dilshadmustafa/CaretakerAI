@@ -26,7 +26,7 @@ Complete details of Box World can be found in [https://github.com/dilshadmustafa
 > - Create and invent Caretaker Semantic Language (CSL) to express Human Memorizing, Learning, Thinking and Hierarchical Thoughts system giving rise to Artificial Consciousness.
 >  - Develop Caretaker Theory and Caretaker Software Architecture (CSA), a Software Approach with highly scalable Cluster Computing system that can be applied at very large scale and uses existing BigData systems like HDFS, Scality, Akka, Alluxio, HBase, Java, Clojure, TensorFlow, Keras, etc.
 
-## Caretakers And Specific Algorithms ##
+## Caretaker Theory And Specific Algorithms ##
 A detailed presentation is available in [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html) and [https://github.com/dilshadmustafa/dilshadmustafa.github.io/blob/master/Docs/Dilshad_Caretaker_Intelligence_ArtificialConsciousness.pptx](https://github.com/dilshadmustafa/dilshadmustafa.github.io/blob/master/Docs/Dilshad_Caretaker_Intelligence_ArtificialConsciousness.pptx)
 
 > **Caretaker:**
