@@ -17,6 +17,8 @@ RoyAI will try to build a Box-World example using Dilshad Mustafa's Caretaker Th
 
 A new language called Caretaker Semantic Language (CSL), which is being created as part of this project, and Caretaker Software Architecture (CSA) is used to express Human Memorizing, Learning, Thinking and Hierarchical Thoughts system giving rise to Artificial Consciousness.
 
+Complete details of Box World can be found in [https://github.com/dilshadmustafa/RoyAI/blob/master/Docs/BoxWorldDetails.docx](https://github.com/dilshadmustafa/RoyAI/blob/master/Docs/BoxWorldDetails.docx)
+
 > **Objectives:**
 
 > - Build multi-agent based Artificial Intelligence.
@@ -28,7 +30,7 @@ A new language called Caretaker Semantic Language (CSL), which is being created 
 
 ## Documentation ##
 
-Please refer [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html) or in https://dilshadmustafa.github.io/ repository Documentation folder to get an overview of Dilshad's Caretaker Theory. Please refer Doc folder tin this repository to get started on using Roy AI.
+Please refer [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html) or in https://github.com/dilshadmustafa/dilshadmustafa.github.io/blob/master/Docs/Dilshad_Caretaker_Intelligence_ArtificialConsciousness.pptx to get an overview of Dilshad's Caretaker Theory. Please refer Doc folder tin this repository to get started on using Roy AI.
 
 
 
