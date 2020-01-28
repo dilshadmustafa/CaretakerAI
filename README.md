@@ -45,6 +45,7 @@ very difficult to formulate such algorithm.
 > - Specific Algorithms in each layer handle algorithm steps for granularity associated with that 
 layer.
 > - Each Specific Algorithm Operator/Agent implements one Specific Algorithm at one layer.
+> - Focus is on Specific Algorithm (SA) Operator and it's functionality and not on how it is implemented. SA Operators cab be implemented using Neural Networks (Deep RL, CNN, RNN, LSTM, GAN, etc.), Genetic Algorithms, Fuzzy Logic And Fuzzy Reasoning, Expert System or any combination of these or other methods. For an example, we can already find Genetic Algorithms used inplace of compute and memory intensive Backpropagation in Neural Networks in various examples using Open AI Gym.
 
 > **Specific Algorithm Examples:**
 
@@ -68,8 +69,36 @@ layer.
 > 
 New Specific Algorithms will be added on a need basis.
 
+> **Data Structures In Caretaker Software Architecture:**
+1) Column Structures
+2) Row Structures
+3) Semantic Pointer e.g. (image thumbnail, SHA2 256-bit Address, timestamp)
+4) Associative Memory Recall, Content Addressable e.g. (image thumbnail, SHA2 256-bit Address)
+5) Similarity Grade Measure e.g. how close a pattern is matching
+
+Column Structure:
+
+1) Column Structure of one or more Trees of Column Structures and Row Structures.
+
+2) Nodes in Trees can be a Column Structure or Row Structure or Neural Network Unit (Deep RL, CNN, RNN, LSTM, GAN, etc.).
+
+3) A Tree can have one or more Nodes.
+
+Row Structure:
+
+1) Row Structure of one or more Trees of Column Structures and Row Structures.
+
+2) Row Structure can connect across Column Structures.
+
+3) Nodes in Trees can be a Column Structure or Row Structure or Neural Network Unit (Deep RL, CNN, RNN, LSTM, GAN, etc.).
+
+4) A Tree can have one or more Nodes.
+
+
 # Von Neumann Architecture And Brain-like Neuronal Circuits
-In Von Neumann Architecture, compute unit, memory and storage are separate. In Brain-like memory-cum-processor Neuronal circuits, a neural network does memory store, memory recall and pattern recognition in the same circuit and have Neuroplasticity. Technologies like Neuromorphic circuits may address these limitations in current hardware architecture.
+In Von Neumann Architecture, compute unit, memory and storage are separate. In Brain-like memory-cum-processor Neuronal circuits, a Neural Network does memory store, memory recall and pattern recognition in the same circuit and have Neuroplasticity. Technologies like Neuromorphic processors may address these limitations in current hardware architecture.
+
+We don't have affordable Neuromorphic processors with Neuroplasticity that comes with 100 Billion Neurons and 1 Trillion synaptic connections. With Von Neumann architecture based machines, it takes huge hardware resources and time consuming to train Deep RLs, CNNs, RNNs, etc. for each learnable task. We will approximate them with Clojure rules which provides roughly equivalent functionality. We will use pretrained TensorFlow models wherever suitable.
 
 # Box World
 A Box World is a world built with Unicode characters. It allows us to focus on developing Caretaker Theory and to build and test the theory. It reduces complexity involved in training CNNs for visual pattern recognition, NNs for Natural Language Processing, Deep Reinforcement Learning Neural Networks for each and every learnable task in this Box World, which require high compute resources, memory, arrays of GPUs, time and effort.
@@ -86,9 +115,11 @@ In Box World, an Actor, denoted by A, can touch/examine/peek an object in the wo
 
 A Box World can be scrollable and in such cases the scrollable side will not have World border characters to indicate that navigation is possible there.
 
+Box World allows User (the Guide) to place things in map interactively and dynamically modify and enhance the environment. User can guide the Actor through a simplified proto-language.
+
 ## Documentation ##
 
-Please refer [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html) or in https://github.com/dilshadmustafa/dilshadmustafa.github.io/blob/master/Docs/Dilshad_Caretaker_Intelligence_ArtificialConsciousness.pptx to get an overview of Dilshad's Caretaker Theory. Please refer Doc folder tin this repository to get started on using Roy AI.
+Please refer [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html) or in https://github.com/dilshadmustafa/dilshadmustafa.github.io/blob/master/Docs/Dilshad_Caretaker_Intelligence_ArtificialConsciousness.pptx to get an overview of Dilshad's Caretaker Theory. Please refer Doc folder in this repository to get started on using Roy AI.
 
 
 
