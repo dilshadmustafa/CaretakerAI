@@ -1,4 +1,4 @@
-Welcome to Roy AI
+Welcome to Caretaker AI
 ===================
 
 ![Scabi Logo](https://raw.githubusercontent.com/dilshadmustafa/scabi/master/Scabi_logo.jpg)
@@ -11,9 +11,9 @@ Welcome to Roy AI
 Introduction
 -------------
 
-**Roy AI** is a multi-agent based AI project which aims to build a Computational Intelligence and Thinking system with Artificial Consciousness similar to Human thinking. 
+**Caretaker AI** is a multi-agent based AI project which aims to build a Computational Intelligence and Thinking system with Artificial Consciousness similar to Human thinking. 
 
-RoyAI will try to build a Box-World example using Dilshad Mustafa's Caretaker Theory for Artificial Intelligence and Consciousness and Caretaker Software Architecture [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html) which is being developed.
+Caretaker AI will try to build a Box-World example using Dilshad Mustafa's Caretaker Theory for Artificial Intelligence and Consciousness and Caretaker Software Architecture [https://dilshadmustafa.github.io/index.html](https://dilshadmustafa.github.io/index.html) which is being developed.
 
 A new language called Caretaker Semantic Language (CSL), which is being created as part of this project, and Caretaker Software Architecture (CSA) is used to express Human Memorizing, Learning, Thinking and Hierarchical Thoughts system giving rise to Artificial Consciousness.
 
@@ -37,21 +37,21 @@ A detailed presentation is available in [https://dilshadmustafa.github.io/index.
 
 > **Specific Algorithms:**
 
-> - There is no “Master Algorithm”. The issue with “one Master Algorithm to handle all” is its 
-very difficult to formulate such algorithm.
+> - There is no “Master Algorithm”. The issue with “one Master Algorithm to handle all” is its very difficult to formulate such algorithm.
 > -  Instead of one Master Algorithm there are millions of Specific Algorithms.
 > - Each Specific Algorithm does only one specific set of steps.
 > - There are Hierarchical Layers of Specific Algorithms. 
 > - Specific Algorithms in each layer handle algorithm steps for granularity associated with that 
 layer.
 > - Each Specific Algorithm Operator/Agent implements one Specific Algorithm at one layer.
-> - Focus is on Specific Algorithm (SA) Operator and it's functionality and not on how it is implemented. SA Operators cab be implemented using Neural Networks (Deep RL, CNN, RNN, LSTM, GAN, etc.), Genetic Algorithms, Fuzzy Logic And Fuzzy Reasoning, Expert System or any combination of these or other methods. For an example, we can already find Genetic Algorithms used inplace of compute and memory intensive Backpropagation in Neural Networks in various examples using Open AI Gym.
+> - Focus is on Specific Algorithm (SA) Operator and it's functionality and not on how it is implemented. SA Operators cab be implemented using Neural Networks (Deep RL, CNN, RNN, LSTM, GAN, etc.), Genetic Algorithms, Fuzzy Logic And Fuzzy Reasoning, Markov Decision Process (MDP) and Monte Carlo technique, Expert System or any combination of these or other methods. For an example, we can already find Genetic Algorithms used inplace of compute and memory intensive Backpropagation in Neural Networks in various examples using Open AI Gym.
 
 > **Specific Algorithm Examples:**
 
 > - Try-Record
 > - What-To-Try
 > - Peek-Classify
+> - What-To-Ask
 > - Ask-WhatWhyWhereWhenHow
 > - Answer-Search
 > - Do-Action
@@ -98,7 +98,7 @@ Row Structure:
 # Von Neumann Architecture And Brain-like Neuronal Circuits
 In Von Neumann Architecture, compute unit, memory and storage are separate. In Brain-like memory-cum-processor Neuronal circuits, a Neural Network does memory store, memory recall and pattern recognition in the same circuit and have Neuroplasticity. Technologies like Neuromorphic processors may address these limitations in current hardware architecture.
 
-We don't have affordable Neuromorphic processors with Neuroplasticity that comes with 100 Billion Neurons and 1 Trillion synaptic connections. With Von Neumann architecture based machines, it takes huge hardware resources and time consuming to train Deep RLs, CNNs, RNNs, etc. for each learnable task. We will approximate them with Clojure rules which provides roughly equivalent functionality. This way of approximating functionality with roughly equivalent functionality is already in use. As an example, since  in Backpropagation algorithm we need to retain all previous layers in memory, we find many cases in practice approximating them with Genetic Algorithms. We will use pretrained TensorFlow models wherever suitable.
+We don't have affordable Neuromorphic processors with Neuroplasticity that comes with 100 Billion Neurons and 1 Trillion synaptic connections. With Von Neumann architecture based machines, it takes huge hardware resources and time consuming to train Deep RLs, CNNs, RNNs, etc. for each learnable task. We will approximate them with Clojure rules which provides roughly equivalent functionality. This way of approximating functionality with roughly equivalent functionality is already in use. As an example, since  in Backpropagation algorithm we need to retain all previous layers in memory and requires high computational resources, we find many cases in practice approximating them with Genetic Algorithms. We will use pretrained TensorFlow models wherever suitable.
 
 # Box World
 A Box World is a world built with Unicode characters. It allows us to focus on developing Caretaker Theory and to build and test the theory. It reduces complexity involved in training CNNs for visual pattern recognition, NNs for Natural Language Processing, Deep Reinforcement Learning Neural Networks for each and every learnable task in this Box World, which require high compute resources, memory, arrays of GPUs, time and effort.
