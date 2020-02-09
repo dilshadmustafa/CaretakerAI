@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>scabiai</groupId>
-	<artifactId>scabiai</artifactId>
+	<groupId>caretakerai</groupId>
+	<artifactId>caretakerai</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>${project.artifactId}</name>
-	<description>scabiai</description>
+	<description>caretakerai</description>
 	<inceptionYear>2018</inceptionYear>
 
 	<properties>

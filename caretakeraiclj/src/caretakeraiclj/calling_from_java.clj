@@ -1,7 +1,7 @@
-(ns scabiaiclj.calling-from-java)
+(ns caretakeraiclj.calling-from-java)
 
 (gen-class
-   :name scabiaiclj.Test1
+   :name caretakeraiclj.Test1
    :methods [^:static [hello [String] void]])
 
 (defn- -hello

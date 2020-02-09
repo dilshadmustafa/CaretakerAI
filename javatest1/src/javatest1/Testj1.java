@@ -1,6 +1,6 @@
 package javatest1;
 
-import scabiaiclj.Test1;
+import caretakeraiclj.Test1;
 
 public class Testj1 {
 
