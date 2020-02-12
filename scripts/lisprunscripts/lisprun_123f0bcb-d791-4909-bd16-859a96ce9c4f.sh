@@ -1,0 +1,1 @@
+/usr/local/bin/sbcl </home/anees/lisptmp/lspfilesreq/req_123f0bcb-d791-4909-bd16-859a96ce9c4f.lsp 1>/home/anees/lisptmp/lspfilesres/res_123f0bcb-d791-4909-bd16-859a96ce9c4f.txt 2>&1

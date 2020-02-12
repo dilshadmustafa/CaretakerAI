@@ -1,4 +1,4 @@
-package com.dilmus.test;
+package com.dilmus.dilshad.test;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;

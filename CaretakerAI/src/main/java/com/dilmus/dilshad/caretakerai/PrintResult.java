@@ -75,7 +75,7 @@ and conditions of this license without giving prior notice.
 
 */
 
-package com.dilmus.dilshad.scabiai;
+package com.dilmus.dilshad.caretakerai;
 
 import akka.dispatch.OnSuccess;
 

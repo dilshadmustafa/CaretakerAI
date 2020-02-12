@@ -75,78 +75,75 @@ and conditions of this license without giving prior notice.
 
 */
 
-package com.dilmus.dilshad.scabiai;
+package com.dilmus.dilshad.caretakerai;
 
 import java.util.UUID;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.CompletionStage;
+import java.util.function.BiFunction;
 
-import com.dilmus.dilshad.ref.MyActor;
-import com.typesafe.config.Config;
-import com.typesafe.config.ConfigFactory;
+import com.dilmus.dilshad.ref.MyActor2_2;
 
+import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
-import akka.actor.ActorSystem;
 import akka.actor.Props;
-import akka.cluster.Cluster;
-import akka.management.AkkaManagement;
-import akka.management.cluster.bootstrap.ClusterBootstrap;
+import akka.actor.Status;
+//import akka.dispatch.OnSuccess;
+import akka.pattern.Patterns;
+//import akka.remote.artery.FlightRecorderReader.Log;
+import akka.util.Timeout;
+//import scala.PartialFunction;
+import scala.compat.java8.FutureConverters;
+import scala.concurrent.Await;
+import scala.concurrent.Future;
+import scala.concurrent.duration.Duration;
 
-public class Node3 {
 
-	public static void main(String... args) {
 
-      String s = "akka.remote.artery.canonical.hostname=\"127.0.0.3\", akka.management.http.hostname=\"127.0.0.3\"";
-
-      Config c = ConfigFactory.parseString(s).withFallback(ConfigFactory.load());
-      ActorSystem system = ActorSystem.create("local-cluster", c);
-
-      // Akka Management hosts the HTTP routes used by bootstrap
-      AkkaManagement.get(system).start();
-
-      // Starting the bootstrap process needs to be done explicitly
-      ClusterBootstrap.get(system).start();
-
-      Cluster.get(system).registerOnMemberUp(
-    		  
-    		  new Runnable() { 
-    			  public void run() { System.out.println("Node 3 joined"); }
-    		  }
-    	  
-      );
-		
-		
-		
-		
-		
-
-		
-//		xception in thread "main" java.lang.IllegalArgumentException: Illegal [akka.discovery.akka.discovery.config.class] value or incompatible class! The implementation class MUST extend akka.discovery.SimpleServiceDiscovery and take an ExtendedActorSystem as constructor argument.
-//		at akka.discovery.ServiceDiscovery.akka$discovery$ServiceDiscovery$$createServiceDiscovery(ServiceDiscovery.scala:84)
-
+public class MyActor3_1 extends AbstractActor {
+	
+	public Receive createReceive() {
 		
 		UUID uuid1 = UUID.randomUUID();
-		UUID uuid2 = UUID.randomUUID();
-		UUID uuid3 = UUID.randomUUID();
-	
-		System.out.println("uuid1 : " + uuid1);
-		System.out.println("uuid2 : " + uuid2);
-		System.out.println("uuid3 : " + uuid3);
+
+		System.out.println("uuid1 : " + uuid1);		
 		
-		
-		ActorRef myActorRef1 
-		  = system.actorOf(Props.create(MyActor.class), "myactor_" + uuid1);
-		ActorRef myActorRef2 
-		  = system.actorOf(Props.create(MyActor.class), "myactor_" + uuid2);
-		ActorRef myActorRef3 
-		  = system.actorOf(Props.create(MyActor.class), "myactor_" + uuid3);
-		
-		
-		
-		myActorRef1.tell("test1", ActorRef.noSender());
-		myActorRef3.tell("test1", ActorRef.noSender());
-	
-		ActorRef ref = system.actorFor("akka://test-system/user/myactor_" + uuid2);
-		ref.tell("test1", ActorRef.noSender());
+		ActorRef myActorRef1 = context().actorOf(Props.create(MyActor3_2.class), "myactor_" + uuid1);
+	    return receiveBuilder()
+	    		.matchEquals("hello",
+	    				message -> {
+	    					myActorRef1.tell("hello", self());
+	    				}
+	    		)
+	    		.matchEquals("come",
+	    				message -> {
+	    					myActorRef1.tell("come", self());
+	    				}
+	    		)	  
+	    		.matchEquals("check",
+	    				message -> {
+	    					myActorRef1.tell("check", self());
+	    				}
+	    		)	  
+	    		.matchEquals("got check",
+	    				message -> {
+	    					System.out.println("message : " + message);
+	    				}
+	    		)	  
+	    		.build();
 	}
-	
-	
+	/*
+	@Override
+	  public Receive createReceive() {
+	    return receiveBuilder()
+	      .match(String.class, msg -> {
+	        CompletableFuture<Object> fut =
+	          ask(target, "some message", timeout).toCompletableFuture();
+
+	        // the pipe pattern
+	        pipe(fut, getContext().dispatcher()).to(getSender());
+	      })
+	      .build();
+	  }
+	  */
 }

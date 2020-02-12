@@ -75,34 +75,77 @@ and conditions of this license without giving prior notice.
 
 */
 
-package com.dilmus.dilshad.scabiai;
+package com.dilmus.dilshad.caretakerai;
 
 import java.util.UUID;
+
+import com.dilmus.dilshad.ref.MyActor;
+import com.typesafe.config.Config;
+import com.typesafe.config.ConfigFactory;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
+import akka.cluster.Cluster;
+import akka.management.AkkaManagement;
+import akka.management.cluster.bootstrap.ClusterBootstrap;
 
-public class MySystem3 {
+public class Node1 {
 
 	public static void main(String... args) {
+
+      String s = "akka.remote.artery.canonical.hostname=\"127.0.0.1\", akka.management.http.hostname=\"127.0.0.1\"";
+
+      Config c = ConfigFactory.parseString(s).withFallback(ConfigFactory.load());
+      ActorSystem system = ActorSystem.create("local-cluster", c);
+
+      // Akka Management hosts the HTTP routes used by bootstrap
+      AkkaManagement.get(system).start();
+
+      // Starting the bootstrap process needs to be done explicitly
+      ClusterBootstrap.get(system).start();
+
+      Cluster.get(system).registerOnMemberUp(
+    		  
+    		  new Runnable() { 
+    			  public void run() { System.out.println("Node 1 joined"); }
+    		  }
+    	  
+      );
 		
-		ActorSystem system = ActorSystem.create("test-system");
+		
+		
+		
+		
+
+		
+//		xception in thread "main" java.lang.IllegalArgumentException: Illegal [akka.discovery.akka.discovery.config.class] value or incompatible class! The implementation class MUST extend akka.discovery.SimpleServiceDiscovery and take an ExtendedActorSystem as constructor argument.
+//		at akka.discovery.ServiceDiscovery.akka$discovery$ServiceDiscovery$$createServiceDiscovery(ServiceDiscovery.scala:84)
+
 		
 		UUID uuid1 = UUID.randomUUID();
-
+		UUID uuid2 = UUID.randomUUID();
+		UUID uuid3 = UUID.randomUUID();
+	
 		System.out.println("uuid1 : " + uuid1);
+		System.out.println("uuid2 : " + uuid2);
+		System.out.println("uuid3 : " + uuid3);
+		
 		
 		ActorRef myActorRef1 
-		  = system.actorOf(Props.create(MyActor3_1.class), "myactor_" + uuid1);
+		  = system.actorOf(Props.create(MyActor.class), "myactor_" + uuid1);
+		ActorRef myActorRef2 
+		  = system.actorOf(Props.create(MyActor.class), "myactor_" + uuid2);
+		ActorRef myActorRef3 
+		  = system.actorOf(Props.create(MyActor.class), "myactor_" + uuid3);
+		
+		
+		
+		myActorRef1.tell("test1", ActorRef.noSender());
+		myActorRef3.tell("test1", ActorRef.noSender());
 	
-		
-		myActorRef1.tell("hello", ActorRef.noSender());
-	
-		myActorRef1.tell("come", ActorRef.noSender());
-		
-		myActorRef1.tell("check", ActorRef.noSender());
-		
+		ActorRef ref = system.actorFor("akka://test-system/user/myactor_" + uuid2);
+		ref.tell("test1", ActorRef.noSender());
 	}
 	
 	
