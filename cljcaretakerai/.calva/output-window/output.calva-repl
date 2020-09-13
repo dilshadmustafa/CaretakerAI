@@ -16,15 +16,11 @@
 ;   - File URLs in stacktrace frames are peekable and clickable.
 clj::ex1.core=> 
 ; Jack-in done.
-; Evaluating file: dbclient.clj
-#object[com.couchbase.client.java.kv.GetResult 0x10a314ef GetResult{content="testing going on hrtr", flags=0x2000000, cas=0x16340eebb4220000, expiry=Optional.empty}]
-nil
-clj::ex1.dbclient=> 
-; Evaluating file: dbclient.clj
-#object[com.couchbase.client.java.kv.GetResult 0xadfab5b GetResult{content="testing going on hrtr", flags=0x2000000, cas=0x16340f1c47110000, expiry=Optional.empty}]
-nil
-clj::ex1.dbclient=> 
 ; Evaluating file: core.clj
 Hello, World, how are you?
 nil
-clj::ex1.core=> 
+clj::cljcaretakerai.core=> 
+; Evaluating file: dbclient.clj
+#object[com.couchbase.client.java.kv.GetResult 0x426aad50 GetResult{content="testing going on hrtr", flags=0x2000000, cas=0x16343cc2b55f0000, expiry=Optional.empty}]
+nil
+clj::cljcaretakerai.dbclient=> 

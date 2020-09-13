@@ -1,4 +1,4 @@
-(ns ex1.core
+(ns cljcaretakerai.core
   (:require [clojure.string :as str]))
 
 (defn -main 

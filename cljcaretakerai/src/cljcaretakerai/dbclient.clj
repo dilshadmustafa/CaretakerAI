@@ -1,4 +1,4 @@
- (ns ex1.dbclient
+ (ns cljcaretakerai.dbclient
   (:import [com.couchbase.client.java Cluster]
            [com.couchbase.client.java Bucket] 
            [com.couchbase.client.java Collection]
