@@ -1,0 +1,30 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - File URLs in stacktrace frames are peekable and clickable.
+clj::ex1.core=> 
+; Jack-in done.
+; Evaluating file: dbclient.clj
+#object[com.couchbase.client.java.kv.GetResult 0x10a314ef GetResult{content="testing going on hrtr", flags=0x2000000, cas=0x16340eebb4220000, expiry=Optional.empty}]
+nil
+clj::ex1.dbclient=> 
+; Evaluating file: dbclient.clj
+#object[com.couchbase.client.java.kv.GetResult 0xadfab5b GetResult{content="testing going on hrtr", flags=0x2000000, cas=0x16340f1c47110000, expiry=Optional.empty}]
+nil
+clj::ex1.dbclient=> 
+; Evaluating file: core.clj
+Hello, World, how are you?
+nil
+clj::ex1.core=> 
