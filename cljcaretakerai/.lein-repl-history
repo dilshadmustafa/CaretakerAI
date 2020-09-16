@@ -32,3 +32,10 @@ quit
 (require '[clojure.tools.namespace.repl :refer [refresh]])
 (refresh)
 quit
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+quit
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+quit
+(use 'cljcaretakerai.core :reload-all)
+quit
