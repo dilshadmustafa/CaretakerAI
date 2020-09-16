@@ -1,4 +1,4 @@
-(ns okku-client.core
+(ns cljcaretakerai.aclient
   (:require  [okku.core :as okku]))
 ;;=> nil
 
@@ -17,8 +17,8 @@
    :in actor-system :name "hello-actor-2")
 
 (def actor-ref (okku/look-up
-         "akka.tcp://actor-system-1@localhost:2552/user/hello-actor"
-         :in actor-system))
+        "akka.tcp://actor-system-1@localhost:2552/user/hello-actor"
+        :in actor-system))
 ;;=> #'okku-client.core/actor-ref
 
 (tell actor-ref "hello remote akka !")
