@@ -29,3 +29,6 @@ quit
 (require '[clojure.tools.namespace.repl :refer [refresh]])
 (refresh)
 quit
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+quit
