@@ -1,0 +1,25 @@
+(clojure.tools.namespace.repl/refresh)
+quit
+(clojure.tools.namespace.repl/refresh)
+(refresh)
+(use 'cljcaretakerai.dbclient :reload-all)
+(use 'cljcaretakerai.dbclient :reload-all)(use 'cljcaretakerai.dbclient :reload-all)
+(use 'cljcaretakerai.dbclient :reload-all)
+(clojure.tools.namespace.repl/refresh)
+L(use 'cljcaretakerai.dbclient :reload-all)
+(use 'cljcaretakerai.dbclient :reload-all)
+quit
+(use 'cljcaretakerai.dbclient :reload-all)
+(clojure.tools.namespace.repl/refresh)
+quit
+(clojure.tools.namespace.repl/refresh)
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+(clojure.tools.namespace.repl )
+(refresh)
+quit
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+quit
