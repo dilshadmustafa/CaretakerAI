@@ -1,0 +1,8 @@
+/home/anees/CaretakerAIcljcaretakerai
+lein repl
+(clojure.tools.namespace.repl/refresh)
+(use 'cljcaretakerai.dbclient :reload-all)
+
+
+
+
