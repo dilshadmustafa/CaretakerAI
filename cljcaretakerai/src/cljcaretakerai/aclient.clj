@@ -71,5 +71,6 @@
 (tell stock-service-requester-actor {:type :request :message {:company "amazon"}})
 ;;=> price of amazon is 200.0
 ;;=> nil
-
-(.shutdown actor-system)
+;to test remote akk service, dont shutdown here
+;"hello remote akka" mesage should display in akka service terminal
+;(.shutdown actor-system)

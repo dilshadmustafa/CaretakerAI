@@ -23,3 +23,9 @@ quit
 (require '[clojure.tools.namespace.repl :refer [refresh]])
 (refresh)
 quit
+(use 'cljcaretakerai.aclient :reload-all)
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+quit
