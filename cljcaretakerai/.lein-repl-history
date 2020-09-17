@@ -39,3 +39,25 @@ quit
 quit
 (use 'cljcaretakerai.core :reload-all)
 quit
+(use 'cljcaretakerai.dbclient :reload-all)
+(use 'cljcaretakerai.core :reload-all)
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+quit
+(use 'cljcaretakerai.core :reload-all)
+quit
+(use 'cljcaretakerai.core :reload-all)
+ABx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+quit
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+quit
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+quit
+(require '[clojure.tools.namespace.repl :refer [refresh]])
+(refresh)
+(use 'cljcaretakerai.core :reload-all)
+quit

@@ -1,4 +1,5 @@
 /home/anees/CaretakerAI/cljcaretakerai
+~/Downloads/lein repl
 lein repl
 (use 'cljcaretakerai.dbclient :reload-all)
 (use 'cljcaretakerai.aclient :reload-all)

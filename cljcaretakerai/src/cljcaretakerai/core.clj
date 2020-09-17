@@ -6,7 +6,7 @@
   [& args]
   (def str1 "This is my first string")
   (str/blank? str1)
-  (println "Hello, World, how are you? test"))
+  (println "Hello, World, how are you? check mesg"))
 ;; => #'ex1.core/-main
 
 (-main)
