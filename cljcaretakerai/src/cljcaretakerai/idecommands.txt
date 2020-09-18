@@ -4,7 +4,7 @@ lein repl
 (use 'cljcaretakerai.dbclient :reload-all)
 (use 'cljcaretakerai.aclient :reload-all)
 (use 'cljcaretakerai.core :reload-all)
-
+(use 'cljcaretakerai.ex1 :reload-all)
 
 (require '[clojure.tools.namespace.repl :refer [refresh]])
 (refresh)

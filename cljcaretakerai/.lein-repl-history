@@ -74,3 +74,5 @@ quit
 (require '[clojure.tools.namespace.repl :refer [refresh]])
 (refresh)
 quit
+(use 'cljcaretakerai.ex1 :reload-all)
+quit
